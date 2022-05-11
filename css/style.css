@@ -1,0 +1,95 @@
+/*Шрифт*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    font-family: 'Oswald', sans-serif; ;
+}
+    h1 {
+        font-weight: 900; color: rgb(255, 255, 255); font-size:50px; 
+    }
+     h2 {font-weight: 900; color: rgb(255, 255, 255); font-size:  50px;;
+    }
+     p2 { font-weight: 400; font-size: 40px; 
+     }
+     p {
+         font-weight: 400; font-size: 40px; 
+     }
+.prosto { color: rgb(0, 0, 0); font-size: 40px; 
+    }
+    .button2 {  
+        display: flex;
+        margin-top: 100px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    ul.dws-ul2{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .button3 {  
+        display: flex;
+        margin-top: 100px;
+        width: 100%;
+        margin-top: -470px;
+    }
+    ul.dws-ul3{
+        display: flex;
+        padding: 0;
+        justify-content: left ;
+        width: 100%;
+    }
+
+.button {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    width: 100%;
+}
+ul.dws-ul{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+li.dws-li{
+    list-style: none;
+    padding: 10px;
+    }
+li.dws-li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    }
+li.dws-li a i{
+    margin-right: 10px;
+}
+li.dws-li a::before{
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+
+li.dws-li:hover{
+    background-color: rgb(255, 255, 255);
+}
+li.dws-li:hover a::before{
+    width: 50%;
+    transform: translateX(100%);
+}
+li.dws-li:hover a::after {
+    width: 50%;
+    transform: translateX(-100%);
+}
+ .center {
+     display: block;
+     margin: 0 auto;
+     float: none  ;
+ }
